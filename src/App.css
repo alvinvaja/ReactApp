@@ -1,11 +1,11 @@
 /* Header Component Styling */
 
-.header {
+.headerSection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 96px;
-    width: 100%;
+    width: auto;
 }
 
 .navbar {
@@ -37,7 +37,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: auto;
     height: 500px;
     background: #FAFAFA;
     color: #303030;
@@ -146,4 +145,14 @@
     font-size: 24px;
     line-height: 29px;
     margin-top: 8px;
+}
+
+/* Mobile Layout Styling */
+
+@media only screen and (max-width: 800px) {
+    .headerSection {
+        height: 72px;
+        justify-content: space-between;
+        padding: 0 25px;
+    }
 }

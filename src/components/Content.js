@@ -6,7 +6,7 @@ import Product from './Product'
 class Content extends Component {
   render() {
     return (
-      <div>
+      <div className="contentSection">
         <div className="content">
           <Download />
           <Phone />
