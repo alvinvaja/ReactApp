@@ -3,6 +3,7 @@ import Card from './Card'
 import Ayam from '../assets/ayam-koplo.svg'
 import SanGyu from '../assets/san-gyu.svg'
 import BudeSari from '../assets/bude-sari.svg'
+import Kopi from '../assets/kopidaripada.svg'
 
 class Product extends Component {
 
@@ -33,6 +34,13 @@ class Product extends Component {
           type: 'Nasi Ayam',
           location: 'Indonesia',
           src: BudeSari
+        },
+        {
+          id: 4,
+          name: 'Kopi Dari|Pada',
+          type: 'Minuman',
+          location: 'Indonesia',
+          src: Kopi
         }
        ]
     }
@@ -40,7 +48,7 @@ class Product extends Component {
 
   render() {
     return (
-      <div>
+      <div className="productStyling">
         <div className="productTitle">
           {this.state.title} 
           <br/>

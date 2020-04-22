@@ -1,3 +1,7 @@
+.App {
+    overflow: hidden;
+}
+
 /* Header Component Styling */
 
 .headerSection {
@@ -32,6 +36,10 @@
 }
 
 /* Content Component Styling */
+
+.contentSection {
+    /* width: auto; */
+}
 
 .content {
     display: flex;
@@ -83,7 +91,14 @@
     flex-direction: column;
     margin-top: 56px;
     width: auto;
-    align-items: center;
+    align-items: flex-start;
+    padding: 0 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .product {
+        padding: 0;
+    }
 }
 
 .productTitle {
@@ -110,6 +125,7 @@
 .productSection {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .cardSection {
@@ -150,9 +166,96 @@
 /* Mobile Layout Styling */
 
 @media only screen and (max-width: 800px) {
+
+    /* Header Mobile Styling */
+
     .headerSection {
         height: 72px;
         justify-content: space-between;
         padding: 0 25px;
+    }
+
+    /* Content Mobile Styling */
+
+    .content {
+        justify-content: center;
+        height: 300px;
+    }
+
+    .descriptionSection {
+        margin-left: 16px;
+    }
+
+    .downloadSection img:first-child {
+        display: none;
+    }
+
+    .downloadSection img:last-child {
+        margin: 0;
+        width: 8rem;
+    }
+
+    .phoneSection {
+        margin-right: -7.5rem;
+    }
+
+    .phoneSection img {
+        height: 250px;
+    }
+
+    .miniDesc {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .bigDesc {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    /* Product Mobile Styling */
+
+    .productTitle {
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 16px;
+    }
+
+    .productDesc {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .productSection {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .cardSection {
+        margin: 8px 0;
+    }
+
+    .cardImage img {
+        width: 160px;
+        height: 160px
+    }
+
+    .cardTitle {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .cardTitle img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .cardDesc {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .cardDescSection {
+        margin-left: 16px;
     }
 }

@@ -8,7 +8,7 @@ class Download extends Component {
     super(props)
   
     this.state = {
-       miniDesc: "Kamu lapar atau haus",
+       miniDesc: "Kamu lapar atau haus?",
        bigDesc: "Tenang...ada Hangry! yang siap mengatasi"
     }
   }
