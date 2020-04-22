@@ -1,3 +1,5 @@
+/* Header Component Styling */
+
 .header {
     display: flex;
     flex-direction: row;
@@ -27,4 +29,50 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+}
+
+/* Content Component Styling */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background: #FAFAFA;
+    color: #303030;
+}
+
+.descriptionSection {
+    flex-basis: 400px;
+}
+
+.miniDesc {
+    opacity: 0.8;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.bigDesc {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.downloadSection {
+    display: flex;
+    margin-top: 40px;
+}
+
+.downloadSection img:last-child {
+    margin-left: 40px;
+}
+
+.phoneSection {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
 }
