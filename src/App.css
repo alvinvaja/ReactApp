@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+    width: 100%;
+}
+
+.navbar {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar div:last-child {
+    color: #A30926;
+    font-weight: bold;
+}
+
+.navbarList {
+    padding: 24px;
+    color: #303030;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
