@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/ReactApp/static/css/main.bf9c8a42.chunk.css",
+    "main.js": "/ReactApp/static/js/main.3d6778d8.chunk.js",
+    "main.js.map": "/ReactApp/static/js/main.3d6778d8.chunk.js.map",
+    "runtime-main.js": "/ReactApp/static/js/runtime-main.bf304976.js",
+    "runtime-main.js.map": "/ReactApp/static/js/runtime-main.bf304976.js.map",
+    "static/js/2.f9961933.chunk.js": "/ReactApp/static/js/2.f9961933.chunk.js",
+    "static/js/2.f9961933.chunk.js.map": "/ReactApp/static/js/2.f9961933.chunk.js.map",
+    "index.html": "/ReactApp/index.html",
+    "precache-manifest.90bb5c6f8b8f9d8f3ebb14bfc36f1ccb.js": "/ReactApp/precache-manifest.90bb5c6f8b8f9d8f3ebb14bfc36f1ccb.js",
+    "service-worker.js": "/ReactApp/service-worker.js",
+    "static/css/main.bf9c8a42.chunk.css.map": "/ReactApp/static/css/main.bf9c8a42.chunk.css.map",
+    "static/js/2.f9961933.chunk.js.LICENSE.txt": "/ReactApp/static/js/2.f9961933.chunk.js.LICENSE.txt",
+    "static/media/appsstore.svg": "/ReactApp/static/media/appsstore.6d53c5c5.svg",
+    "static/media/arrow-right.svg": "/ReactApp/static/media/arrow-right.35a16fbf.svg",
+    "static/media/ayam-koplo.svg": "/ReactApp/static/media/ayam-koplo.401da4cf.svg",
+    "static/media/bude-sari.svg": "/ReactApp/static/media/bude-sari.b30d9556.svg",
+    "static/media/hangry.svg": "/ReactApp/static/media/hangry.7d58dd81.svg",
+    "static/media/kopidaripada.svg": "/ReactApp/static/media/kopidaripada.013cdb27.svg",
+    "static/media/phone.svg": "/ReactApp/static/media/phone.913c2cf6.svg",
+    "static/media/playstore.svg": "/ReactApp/static/media/playstore.9131bd10.svg",
+    "static/media/san-gyu.svg": "/ReactApp/static/media/san-gyu.807697ac.svg",
+    "static/media/sandwich.svg": "/ReactApp/static/media/sandwich.687970d6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf304976.js",
+    "static/js/2.f9961933.chunk.js",
+    "static/css/main.bf9c8a42.chunk.css",
+    "static/js/main.3d6778d8.chunk.js"
+  ]
+}
